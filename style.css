@@ -1,9 +1,93 @@
 body {
   box-sizing: border-box;
   margin: 0 auto;
+  padding: 0 auto;
+  min-width: 375px;
+  max-width: 1440px;
+  font-family: Roboto, sans-serif;
+  background: #ffffff;
 }
 
-body img {
+main img {
   width: 100px;
   height: 100px;
+}
+
+/* --------------------------------------- HEADER --------------------------------------- */
+
+header {
+  width: 100%;
+}
+
+.logo_ohmyfood {
+  width: 100%;
+  padding: 20px 0 20px;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.logo_ohmyfood img {
+  width: 162px;
+  height: 44px;
+}
+
+.location {
+  height: 50px;
+  background-color: #eaeaea;
+  background: linear-gradient(180deg, rgb(190, 190, 190) 0%, #eaeaea 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-dot {
+  fill: #353535;
+  margin-right: 17px;
+}
+
+.location h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.restaurant_choice {
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.restaurant_choice h2 {
+  font-size: 24px;
+  padding-top: 33px;
+  margin: 0;
+}
+
+.restaurant_choice p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 10px 0 27px;
+}
+
+.restaurant_choice button {
+  border: none;
+  width: 218px;
+  height: 50px;
+  margin-bottom: 57px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  background: linear-gradient(-10deg, #9356dc -5.2%, #ff79da 110.74%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.restaurant_choice button:hover {
+  background: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%);
+  transform: scale(1.02);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
 }
