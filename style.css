@@ -97,7 +97,7 @@ header {
 .fonctionnement {
   width: 100%;
   min-width: 375px;
-  padding: 48px 0 0 20px;
+  padding: 48px 20px 20px 20px;
   margin: 0;
 }
 
@@ -118,6 +118,13 @@ header {
   transition: cubic-bezier(0.35, 0.08, 0, 1.5) all 400ms;
   margin-bottom: 24px;
   text-align: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn_functioning:hover .svg_functioning {
+  fill: #9356dc;
+  transform: scale(1.1);
 }
 
 .btn_functioning:hover {
@@ -128,7 +135,6 @@ header {
 .btn_functioning p {
   margin: 0;
   font-weight: 500;
-  width: 100%;
 }
 
 .choose_text {
@@ -136,18 +142,14 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  /* width: 100%; */
 }
 
 .svg_functioning {
   fill: #7e7e7e;
   margin-left: 33px;
-  margin-right: 27px;
   transition: cubic-bezier(0.35, 0.08, 0, 1.5) all 400ms;
-}
-
-.svg_functioning:hover {
-  fill: #9356dc;
-  transform: scale(1.1);
+  padding-right: 27px;
 }
 
 .number {
@@ -169,4 +171,10 @@ header {
   color: #ffffff;
   font-size: 14.18px;
   font-weight: 500;
+}
+
+/*------------------------------- MAIN ----------------------*/
+
+main {
+  background: #f7f7f7;
 }
