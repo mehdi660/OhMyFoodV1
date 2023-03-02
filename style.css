@@ -177,4 +177,64 @@ header {
 
 main {
   background: #f7f7f7;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.restaurant_container {
+  padding-top: 54px;
+}
+
+.restaurant_container h2 {
+  padding-bottom: 20px;
+}
+
+.main_card_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_restaurant {
+  width: 335px;
+  height: 251px;
+  background: #ffffff;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.card_restaurant a {
+  text-decoration: none;
+  position: relative;
+}
+
+.card_restaurant img {
+  object-fit: cover;
+  height: 180px;
+  width: 100%;
+  border-radius: 15px 15px 0 0px;
+}
+
+.text_card_container {
+  padding-left: 12.81px;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+
+.text_card_container h3 {
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 4px;
+}
+
+.text_card_container p {
+  margin-top: 0;
+  color: #000000;
+  font-weight: 300;
+}
+
+.heart {
+  position: absolute;
+  fill: #000000;
 }
