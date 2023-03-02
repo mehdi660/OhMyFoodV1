@@ -96,7 +96,9 @@ header {
 
 .fonctionnement {
   width: 100%;
+  min-width: 375px;
   padding: 48px 0 0 20px;
+  margin: 0;
 }
 
 .fonctionnement h2 {
@@ -104,23 +106,26 @@ header {
   padding-bottom: 26px;
 }
 
-.choose {
+.btn_functioning {
   position: relative;
-  width: 322.49px;
+  width: 90%;
   height: 72.38px;
+  margin-left: 8px;
   background: #f6f6f6;
   border-radius: 20px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   transition: cubic-bezier(0.35, 0.08, 0, 1.5) all 400ms;
+  margin-bottom: 24px;
+  text-align: center;
 }
 
-.choose:hover {
+.btn_functioning:hover {
   background: #f5edff;
   transform: scale(1.05);
 }
 
-.choose p {
+.btn_functioning p {
   margin: 0;
   font-weight: 500;
   width: 100%;
@@ -133,19 +138,19 @@ header {
   height: 100%;
 }
 
-.phone {
+.svg_functioning {
   fill: #7e7e7e;
   margin-left: 33px;
   margin-right: 27px;
   transition: cubic-bezier(0.35, 0.08, 0, 1.5) all 400ms;
 }
 
-.phone:hover {
+.svg_functioning:hover {
   fill: #9356dc;
   transform: scale(1.1);
 }
 
-.number1 {
+.number {
   width: 24px;
   height: 24px;
   border-radius: 50px;
@@ -157,7 +162,7 @@ header {
   left: -12px;
 }
 
-.number1 p {
+.number p {
   text-align: center;
   padding-right: 2px;
   padding-top: 4px;
