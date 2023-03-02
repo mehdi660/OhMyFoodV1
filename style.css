@@ -93,3 +93,75 @@ header {
 }
 
 /*-------------------------- FONCTIONNEMENT-----------------------  */
+
+.fonctionnement {
+  width: 100%;
+  padding: 48px 0 0 20px;
+}
+
+.fonctionnement h2 {
+  margin: 0;
+  padding-bottom: 26px;
+}
+
+.choose {
+  position: relative;
+  width: 322.49px;
+  height: 72.38px;
+  background: #f6f6f6;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: cubic-bezier(0.35, 0.08, 0, 1.5) all 400ms;
+}
+
+.choose:hover {
+  background: #f5edff;
+  transform: scale(1.05);
+}
+
+.choose p {
+  margin: 0;
+  font-weight: 500;
+  width: 100%;
+}
+
+.choose_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.phone {
+  fill: #7e7e7e;
+  margin-left: 33px;
+  margin-right: 27px;
+  transition: cubic-bezier(0.35, 0.08, 0, 1.5) all 400ms;
+}
+
+.phone:hover {
+  fill: #9356dc;
+  transform: scale(1.1);
+}
+
+.number1 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  background: #9356dc;
+  margin: 0;
+  z-index: 100;
+  position: absolute;
+  top: 24px;
+  left: -12px;
+}
+
+.number1 p {
+  text-align: center;
+  padding-right: 2px;
+  padding-top: 4px;
+  color: #ffffff;
+  font-size: 14.18px;
+  font-weight: 500;
+}
