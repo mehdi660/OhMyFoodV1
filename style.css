@@ -303,9 +303,38 @@ footer {
   padding-top: 22px;
   padding-bottom: 33px;
   padding-left: 25px;
+  color: #ffffff;
 }
 
 .footer_container img {
   width: 137px;
   height: 27px;
+  padding-bottom: 16px;
+}
+
+.footer_container p {
+  margin: 0 0 7px 0;
+}
+
+.footer_container a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.couvert {
+  display: flex;
+  align-items: center;
+}
+
+.utensils {
+  padding-right: 11px;
+}
+
+.helping {
+  padding-right: 10.08px;
+}
+
+.partner {
+  display: flex;
+  align-items: center;
 }
