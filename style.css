@@ -42,7 +42,7 @@ header {
 }
 
 .location-dot {
-  fill: #353535;
+  color: #353535;
   margin-right: 17px;
 }
 
@@ -114,7 +114,6 @@ header {
   background: #f6f6f6;
   border-radius: 20px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
   transition: cubic-bezier(0.35, 0.08, 0, 1.5) all 400ms;
   margin-bottom: 24px;
   text-align: center;
@@ -122,8 +121,8 @@ header {
   justify-content: flex-start;
 }
 
-.btn_functioning:hover .svg_functioning {
-  fill: #9356dc;
+.btn_functioning:hover .i_functioning {
+  color: #9356dc;
   transform: scale(1.1);
 }
 
@@ -142,11 +141,10 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  /* width: 100%; */
 }
 
-.svg_functioning {
-  fill: #7e7e7e;
+.i_functioning {
+  color: #7e7e7e;
   margin-left: 33px;
   transition: cubic-bezier(0.35, 0.08, 0, 1.5) all 400ms;
   padding-right: 27px;
@@ -195,7 +193,7 @@ main {
 }
 
 .card_restaurant {
-  width: 335px;
+  width: 99%;
   height: 251px;
   background: #ffffff;
   margin-bottom: 20px;
@@ -214,6 +212,24 @@ main {
   height: 180px;
   width: 100%;
   border-radius: 15px 15px 0 0px;
+}
+
+.new {
+  width: 80px;
+  height: 29px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: #99e2d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new p {
+  font-size: 14px;
+  color: #008766;
+  font-weight: 500;
 }
 
 .text_card_container {
@@ -238,7 +254,7 @@ main {
   width: 21px;
   height: 21px;
   position: absolute;
-  fill: #000000;
+
   top: 200px;
   right: 36px;
   font-size: 21px;
@@ -261,4 +277,35 @@ main {
   100% {
     transform: translateZ(160px) rotateY(180deg);
   }
+}
+
+.heart-after {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  visibility: hidden;
+  top: 200px;
+  right: 36px;
+  font-size: 21px;
+}
+
+.heart-after:hover {
+  visibility: visible;
+}
+
+/*---------------------- FOOTER ------------------------*/
+
+footer {
+  background: #353535;
+}
+
+.footer_container {
+  padding-top: 22px;
+  padding-bottom: 33px;
+  padding-left: 25px;
+}
+
+.footer_container img {
+  width: 137px;
+  height: 27px;
 }
