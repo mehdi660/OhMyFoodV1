@@ -201,11 +201,12 @@ main {
   margin-bottom: 20px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
+  position: relative;
 }
 
 .card_restaurant a {
   text-decoration: none;
-  position: relative;
+  height: 100%;
 }
 
 .card_restaurant img {
@@ -217,8 +218,7 @@ main {
 
 .text_card_container {
   padding-left: 12.81px;
-  margin-bottom: 12px;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .text_card_container h3 {
@@ -229,12 +229,36 @@ main {
 }
 
 .text_card_container p {
-  margin-top: 0;
+  margin: 0;
   color: #000000;
   font-weight: 300;
 }
 
 .heart {
+  width: 21px;
+  height: 21px;
   position: absolute;
   fill: #000000;
+  top: 200px;
+  right: 36px;
+  font-size: 21px;
+}
+
+.heart:hover {
+  color: #9356dc;
+}
+
+.flip-vertical-fwd:hover {
+  animation: flip-vertical-fwd 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    alternate;
+  cursor: pointer;
+}
+
+@keyframes flip-vertical-fwd {
+  0% {
+    transform: translateZ(0) rotateY(0);
+  }
+  100% {
+    transform: translateZ(160px) rotateY(180deg);
+  }
 }
