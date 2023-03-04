@@ -423,7 +423,7 @@ footer {
 .title_container h1 {
   font-size: 28px;
   font-style: italic;
-  padding: 32px 0 40px 0;
+  padding: 32px 0 0 0;
   font-family: Shrikhand, sans-serif;
   font-weight: 400;
   margin: 0;
@@ -433,27 +433,6 @@ footer {
 .title_container {
   position: relative;
   width: 100%;
-}
-
-.heart_title i {
-  position: absolute;
-  top: 40px;
-  right: 41px;
-  font-size: 21px;
-}
-
-.heart_title {
-  width: 24px;
-  height: 24px;
-  /* font-size: 21px; */
-  cursor: pointer;
-}
-
-.main-palette {
-  position: relative;
-  margin-top: -55px;
-  border-radius: 25px 25px 0 0;
-  padding: 0 0 0 13px;
 }
 
 .heart-after-title {
@@ -492,4 +471,30 @@ footer {
   cursor: pointer;
   opacity: 1;
   transition: ease-in-out 0.4s;
+}
+.heart_title i {
+  position: absolute;
+  top: 40px;
+  right: 41px;
+  font-size: 21px;
+}
+
+.heart_title {
+  width: 24px;
+  height: 24px;
+  /* font-size: 21px; */
+  cursor: pointer;
+}
+
+.main-palette {
+  position: relative;
+  margin-top: -55px;
+  border-radius: 25px 25px 0 0;
+  padding: 0 0 0 13px;
+}
+
+/* --------------------------------------- MAIN MENU -------------------------------------------- */
+
+.menu_container {
+  padding-top: 40px;
 }
