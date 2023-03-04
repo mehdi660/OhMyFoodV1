@@ -2,7 +2,6 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0 auto;
-  min-width: 375px;
   max-width: 1440px;
   font-family: Roboto, sans-serif;
   background: #ffffff;
@@ -404,34 +403,42 @@ footer {
 
 .img_container_presentation {
   width: 100%;
-  height: 275px;
-  border-radius: 11% 12% 0% 0% / 27% 21% 22% 22%;
 }
 
 .img_container_presentation img {
   width: 100%;
-  height: 100%;
+  object-fit: cover;
 }
 
 /* --------------------------------------- MAIN -------------------------------------------- */
 
-.top_palette_container h1 {
+/* .top_palette_container {
+  margin-top: -55px;
+  z-index: 20;
+  width: 100%;
+  height: 50px;
+  background: #f7f7f7;
+} */
+
+.title_container h1 {
   font-size: 28px;
   font-style: italic;
-  padding-top: 32px;
-  margin: 0;
+  padding: 32px 0 40px 0;
   font-family: Shrikhand, sans-serif;
   font-weight: 400;
+  margin: 0;
+  width: 100%;
 }
 
 .title_container {
   position: relative;
+  width: 100%;
 }
 
 .heart_title i {
   position: absolute;
   top: 40px;
-  right: 35px;
+  right: 41px;
   font-size: 21px;
 }
 
@@ -440,6 +447,13 @@ footer {
   height: 24px;
   /* font-size: 21px; */
   cursor: pointer;
+}
+
+.main-palette {
+  position: relative;
+  margin-top: -55px;
+  border-radius: 25px 25px 0 0;
+  padding: 0 0 0 13px;
 }
 
 .heart-after-title {
