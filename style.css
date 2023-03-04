@@ -23,15 +23,18 @@ header {
 
 .logo_ohmyfood {
   width: 100%;
-  padding: 20px 0 20px;
+  padding: 14px 0 10px;
   display: flex;
   justify-content: center;
   background: #ffffff;
 }
 
-.logo_ohmyfood img {
-  width: 162px;
-  height: 44px;
+.logo_ohmyfood h1 {
+  font-family: Shrikhand, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  margin: 0;
 }
 
 .location {
@@ -179,6 +182,7 @@ main {
   background: #f7f7f7;
   padding-left: 17px;
   padding-right: 17px;
+  font-family: roboto, sans-serif;
 }
 
 .restaurant_container {
@@ -262,6 +266,10 @@ main {
   cursor: pointer;
 }
 
+.anim_heart {
+  cursor: pointer;
+}
+
 .anim_heart:active .heart-after {
   background: -webkit-linear-gradient(
     200.64deg,
@@ -281,18 +289,6 @@ main {
   cursor: pointer;
   opacity: 1;
   transition: ease-in-out 0.4s;
-}
-
-.heart:active + .heart-after {
-  opacity: 1;
-}
-
-.heart:active {
-  transform: scale(1.5);
-}
-
-.heart.active {
-  transform: scale(1.5);
 }
 
 .heart-after {
@@ -436,7 +432,7 @@ footer {
   position: absolute;
   top: 40px;
   right: 35px;
-  font-size: 23px;
+  font-size: 21px;
 }
 
 .heart_title {
