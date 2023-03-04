@@ -412,6 +412,12 @@ footer {
 
 /* --------------------------------------- MAIN -------------------------------------------- */
 
+.main-palette {
+  position: relative;
+  margin-top: -55px;
+  border-radius: 25px 25px 0 0;
+  padding: 0 0 0 13px;
+}
 /* .top_palette_container {
   margin-top: -55px;
   z-index: 20;
@@ -486,15 +492,79 @@ footer {
   cursor: pointer;
 }
 
-.main-palette {
-  position: relative;
-  margin-top: -55px;
-  border-radius: 25px 25px 0 0;
-  padding: 0 0 0 13px;
-}
-
 /* --------------------------------------- MAIN MENU -------------------------------------------- */
 
 .menu_container {
-  padding-top: 40px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_container span {
+  text-transform: uppercase;
+  font-weight: 300;
+  border-bottom: 3px solid #99e2d0;
+  display: inline-block;
+  width: 40px;
+  padding-bottom: 3px;
+  margin-bottom: 12px;
+}
+
+.card {
+  background: #ffffff;
+  width: 100%;
+  height: 68px;
+  border-radius: 15.0431px;
+  box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.text_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.text {
+  padding-left: 10px;
+  margin-top: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.text h4 {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+.text p {
+  font-weight: 300;
+  font-size: 15px;
+  margin: 0;
+}
+
+.price {
+  padding-right: 20px;
+  margin-top: 29px;
+}
+
+.price p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.checker {
+  display: none;
+  font-weight: 700;
+  height: 100px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
 }
