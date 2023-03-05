@@ -569,44 +569,40 @@ footer {
   position: absolute;
   background: #99e2d0;
   border-radius: 0 15px 15px 0;
-  right: 0px;
+  right: -84px;
   padding: 0 13px;
   height: 100%;
+  width: 10%;
+  top: 0;
+  display: flex;
+  align-items: center;
 }
 
 .checker i {
   color: #ffffff;
-  font-size: 25px;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-  -webkit-animation: rotate 0.5s both;
-  animation: rotate 0.5s both;
+  font-size: 30px;
 }
 
 .card:hover .checker {
-  -webkit-animation: slide-left 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s
-    both;
-  animation: slide-left 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s both;
-  display: block;
+  right: 0;
+  transition: 0.5s ease-in-out;
 }
 
-@-webkit-keyframes slide-left {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
-  }
+.card:hover .checker i {
+  animation: rotate 0.5s;
 }
-@keyframes slide-left {
+
+.card:hover .text_card {
+  width: 80%;
+  transition: 0.5s ease-in-out;
+}
+
+@keyframes rotate {
   0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+    transform: rotate(0);
   }
+
   100% {
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
+    transform: rotate(360deg);
   }
 }
