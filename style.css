@@ -541,12 +541,16 @@ footer {
   font-weight: 500;
   font-size: 18px;
   margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .text p {
   font-weight: 300;
   font-size: 15px;
   margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .price {
@@ -562,9 +566,47 @@ footer {
 
 .checker {
   display: none;
-  font-weight: 700;
-  height: 100px;
   position: absolute;
-  top: 25px;
-  right: 25px;
+  background: #99e2d0;
+  border-radius: 0 15px 15px 0;
+  right: 0px;
+  padding: 0 13px;
+  height: 100%;
+}
+
+.checker i {
+  color: #ffffff;
+  font-size: 25px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation: rotate 0.5s both;
+  animation: rotate 0.5s both;
+}
+
+.card:hover .checker {
+  -webkit-animation: slide-left 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s
+    both;
+  animation: slide-left 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s both;
+  display: block;
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
 }
