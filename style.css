@@ -413,6 +413,10 @@ footer h4 {
   object-fit: cover;
 }
 
+.img_note {
+  height: 260px;
+}
+
 /* --------------------------------------- MAIN -------------------------------------------- */
 
 .main-palette {
@@ -421,13 +425,6 @@ footer h4 {
   border-radius: 25px 25px 0 0;
   padding: 0 0 0 13px;
 }
-/* .top_palette_container {
-  margin-top: -55px;
-  z-index: 20;
-  width: 100%;
-  height: 50px;
-  background: #f7f7f7;
-} */
 
 .title_container h1 {
   font-size: 28px;
