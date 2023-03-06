@@ -5,6 +5,7 @@ body {
   max-width: 1440px;
   font-family: Roboto, sans-serif;
   background: #ffffff;
+  overflow-x: hidden;
 }
 
 main img {
@@ -670,12 +671,50 @@ footer h4 {
 
 @media screen and (min-width: 992px) {
   body {
-    max-width: 1400px;
+    overflow-x: hidden;
   }
 
   .restaurant_choice h2 {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 18px;
+  }
+
+  .fonctionnement_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fonctionnement h2 {
+    padding-left: 150px;
+  }
+
+  .btn_functioning {
+    width: 322px;
+    margin-right: 32px;
+  }
+
+  .main_card_container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+  }
+  .restaurant_container h2 {
+    padding-left: 150px;
+  }
+
+  .main_card_container {
+    width: 100%;
+    overflow-x: scroll;
+
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: auto;
+  }
+
+  .card_restaurant {
+    margin-right: 29px;
+    width: 380px;
+    height: 251px;
   }
 }
