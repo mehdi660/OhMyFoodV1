@@ -717,4 +717,44 @@ footer h4 {
     width: 380px;
     height: 251px;
   }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  footer h4 {
+    margin: 0;
+  }
+
+  .footer_container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 52px;
+    padding-bottom: 43px;
+    padding-right: 50px;
+  }
+
+  .footer_container p {
+    margin: 0;
+  }
+
+  .couvert {
+    order: -1;
+  }
+
+  .partner {
+    order: -1;
+  }
+
+  .mentions {
+    order: -1;
+  }
+
+  .contact {
+    order: -1;
+  }
 }
