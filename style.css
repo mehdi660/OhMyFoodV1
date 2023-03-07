@@ -271,17 +271,13 @@ main {
 }
 
 .anim_heart:active .heart-after {
-  background: -webkit-linear-gradient(
-    200.64deg,
-    #9356dc -5.2%,
-    #ff79da 110.74%
-  );
-  background: linear-gradient(
-    to top,
-    200.64deg,
-    #9356dc -5.2%,
-    #ff79da 110.74%
-  );
+  background: -webkit-linear-gradient(200.64deg,
+      #9356dc -5.2%,
+      #ff79da 110.74%);
+  background: linear-gradient(to top,
+      200.64deg,
+      #9356dc -5.2%,
+      #ff79da 110.74%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -300,11 +296,9 @@ main {
   font-size: 21px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  background: -webkit-linear-gradient(
-    200.64deg,
-    #9356dc -5.2%,
-    #ff79da 110.74%
-  );
+  background: -webkit-linear-gradient(200.64deg,
+      #9356dc -5.2%,
+      #ff79da 110.74%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -448,11 +442,9 @@ footer h4 {
   font-size: 21px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  background: -webkit-linear-gradient(
-    200.64deg,
-    #9356dc -5.2%,
-    #ff79da 110.74%
-  );
+  background: -webkit-linear-gradient(200.64deg,
+      #9356dc -5.2%,
+      #ff79da 110.74%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -460,17 +452,13 @@ footer h4 {
 }
 
 .heart_title:active .heart-after-title {
-  background: -webkit-linear-gradient(
-    200.64deg,
-    #9356dc -5.2%,
-    #ff79da 110.74%
-  );
-  background: linear-gradient(
-    to top,
-    200.64deg,
-    #9356dc -5.2%,
-    #ff79da 110.74%
-  );
+  background: -webkit-linear-gradient(200.64deg,
+      #9356dc -5.2%,
+      #ff79da 110.74%);
+  background: linear-gradient(to top,
+      200.64deg,
+      #9356dc -5.2%,
+      #ff79da 110.74%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -479,6 +467,7 @@ footer h4 {
   opacity: 1;
   transition: ease-in-out 0.4s;
 }
+
 .heart_title i {
   position: absolute;
   top: 40px;
@@ -581,7 +570,7 @@ footer h4 {
 
 .checker i {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .card:hover .checker {
@@ -631,6 +620,7 @@ footer h4 {
     transform: translateX(1000px);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0);
     opacity: 1;
@@ -702,6 +692,7 @@ footer h4 {
     flex-direction: row;
     padding-bottom: 82px;
   }
+
   .restaurant_container h2 {
     padding-left: 150px;
     margin: 0;
@@ -716,17 +707,13 @@ footer h4 {
   }
 
   .anim_heart:hover .heart-after {
-    background: -webkit-linear-gradient(
-      200.64deg,
-      #9356dc -5.2%,
-      #ff79da 110.74%
-    );
-    background: linear-gradient(
-      to top,
-      200.64deg,
-      #9356dc -5.2%,
-      #ff79da 110.74%
-    );
+    background: -webkit-linear-gradient(200.64deg,
+        #9356dc -5.2%,
+        #ff79da 110.74%);
+    background: linear-gradient(to top,
+        200.64deg,
+        #9356dc -5.2%,
+        #ff79da 110.74%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -785,14 +772,7 @@ footer h4 {
   }
 
   /* --------------------------------------- Pages des restaurants -------------------------------------------- */
-
-  .main {
-    width: 60%;
-    margin: 0 auto;
-    padding-left: 150px;
-    padding-right: 150px;
-    margin-top: -60px;
-  }
+  /* ------------------------------------------------ HEADER ----------------------------------------- */
 
   .img_container_presentation {
     height: 400px;
@@ -807,21 +787,27 @@ footer h4 {
   }
 
   .heart_title i {
-    right: 190px;
+    right: 160px;
+  }
+
+  /* --------------------------------------- MAIN -------------------------------------------- */
+
+  .main {
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: -60px;
   }
 
   .heart_title:hover .heart-after-title {
-    background: -webkit-linear-gradient(
-      200.64deg,
-      #9356dc -5.2%,
-      #ff79da 110.74%
-    );
-    background: linear-gradient(
-      to top,
-      200.64deg,
-      #9356dc -5.2%,
-      #ff79da 110.74%
-    );
+    background: -webkit-linear-gradient(200.64deg,
+        #9356dc -5.2%,
+        #ff79da 110.74%);
+    background: linear-gradient(to top,
+        200.64deg,
+        #9356dc -5.2%,
+        #ff79da 110.74%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -835,4 +821,13 @@ footer h4 {
     width: 93%;
     transition: 0.5s ease-in-out;
   }
+
+  .checker i {
+    font-size: 20px;
+  }
+
+  /* --------------------------------------- footer -------------------------------------------- */
+  /* .footer_h4 {
+    order: 3;
+  } */
 }
