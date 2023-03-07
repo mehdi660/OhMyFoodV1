@@ -695,13 +695,16 @@ footer h4 {
     margin-right: 32px;
   }
 
+  /* --------------------------------------- RESTAURANTS -------------------------------------------- */
+
   .main_card_container {
     display: flex;
     flex-direction: row;
-    /* padding-left: 150px; */
+    padding-bottom: 82px;
   }
   .restaurant_container h2 {
     padding-left: 150px;
+    margin: 0;
   }
 
   .main_card_container {
@@ -717,6 +720,8 @@ footer h4 {
     width: 380px;
     height: 251px;
   }
+
+  /* --------------------------------------- FOOTER -------------------------------------------- */
 
   footer {
     display: flex;
