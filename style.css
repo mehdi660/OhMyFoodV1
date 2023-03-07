@@ -206,7 +206,7 @@ header {
 
 .btn_functioning:hover {
   background: #f5edff;
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 .btn_functioning p {
