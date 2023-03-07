@@ -594,7 +594,7 @@ footer h4 {
 }
 
 .card:hover .text_card {
-  width: 84%;
+  width: 89%;
   transition: 0.5s ease-in-out;
 }
 
@@ -782,5 +782,57 @@ footer h4 {
 
   .contact {
     order: -1;
+  }
+
+  /* --------------------------------------- Pages des restaurants -------------------------------------------- */
+
+  .main {
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: -60px;
+  }
+
+  .img_container_presentation {
+    height: 400px;
+  }
+
+  .img_presentation {
+    height: 100%;
+  }
+
+  .title_container h1 {
+    text-align: center;
+  }
+
+  .heart_title i {
+    right: 190px;
+  }
+
+  .heart_title:hover .heart-after-title {
+    background: -webkit-linear-gradient(
+      200.64deg,
+      #9356dc -5.2%,
+      #ff79da 110.74%
+    );
+    background: linear-gradient(
+      to top,
+      200.64deg,
+      #9356dc -5.2%,
+      #ff79da 110.74%
+    );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    opacity: 1;
+    transition: ease-in-out 0.4s;
+  }
+
+  .card:hover .text_card {
+    width: 93%;
+    transition: 0.5s ease-in-out;
   }
 }
