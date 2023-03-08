@@ -5,6 +5,7 @@ body {
   max-width: 1440px;
   font-family: Roboto, sans-serif;
   background: #ffffff;
+  overflow-x: hidden;
 
 }
 
@@ -186,7 +187,7 @@ header {
 
 .btn_functioning {
   position: relative;
-  width: 90%;
+  width: 89%;
   height: 72.38px;
   margin-left: 8px;
   background: #f6f6f6;
