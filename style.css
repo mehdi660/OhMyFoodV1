@@ -1,9 +1,9 @@
 body {
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
   max-width: 1440px;
-  min-width: 375px;
+  min-width: 320px;
   font-family: Roboto, sans-serif;
   background: #ffffff;
   overflow-x: hidden;
@@ -174,14 +174,19 @@ header {
 
 .fonctionnement {
   width: 100%;
-  min-width: 375px;
-  padding: 48px 20px 20px 20px;
+  min-width: 320px;
+  padding-top: 10px;
   margin: 0;
+}
+
+.fonctionnement_container{
+  padding-left: 10px;
 }
 
 .fonctionnement h2 {
   margin: 0;
   padding-bottom: 26px;
+  padding-left: 10px;
 }
 
 .btn_functioning {
@@ -344,13 +349,6 @@ main {
 }
 
 .anim_heart:active .heart-after {
-  background: -webkit-linear-gradient(200.64deg,
-      #9356dc -5.2%,
-      #ff79da 110.74%);
-  background: linear-gradient(to top,
-      200.64deg,
-      #9356dc -5.2%,
-      #ff79da 110.74%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -495,7 +493,7 @@ footer h4 {
 }
 
 .title_container h1 {
-  font-size: 28px;
+  font-size: 23px;
   font-style: italic;
   padding: 32px 0 0 0;
   font-family: Shrikhand, sans-serif;
@@ -529,13 +527,6 @@ footer h4 {
 }
 
 .heart_title:active .heart-after-title {
-  background: -webkit-linear-gradient(200.64deg,
-      #9356dc -5.2%,
-      #ff79da 110.74%);
-  background: linear-gradient(to top,
-      200.64deg,
-      #9356dc -5.2%,
-      #ff79da 110.74%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -592,6 +583,7 @@ footer h4 {
   align-items: center;
   width: 100%;
   margin-top: 10px;
+  transition: 0.5s ease-in-out;
 }
 
 .text {
@@ -599,6 +591,7 @@ footer h4 {
   margin-top: 5px;
   white-space: nowrap;
   overflow: hidden;
+  transition: 0.5s ease-in-out;
 }
 
 .text h4 {
@@ -615,17 +608,20 @@ footer h4 {
   margin: 0;
   text-overflow: ellipsis;
   overflow: hidden;
+  
 }
 
 .price {
   padding-right: 20px;
   margin-top: 29px;
+  transition: 0.5s ease-in-out;
 }
 
 .price p {
   margin: 0;
   font-weight: 700;
   font-size: 15px;
+  
 }
 
 .checker {
@@ -636,7 +632,7 @@ footer h4 {
   right: -84px;
   padding: 0 13px;
   height: 100%;
-
+  transition: 0.5s ease-in-out;
   top: 0;
   display: flex;
   align-items: center;
@@ -645,6 +641,7 @@ footer h4 {
 .checker i {
   color: #ffffff;
   font-size: 20px;
+  
 }
 
 .card:hover .checker {
@@ -659,6 +656,7 @@ footer h4 {
 .card:hover .text_card {
   width: 89%;
   transition: 0.5s ease-in-out;
+  
 }
 
 @keyframes rotate {
@@ -750,7 +748,7 @@ footer h4 {
     align-items: center;
     justify-content: flex-start;
     margin-left: 150px;
-
+    padding-left: 10px;
   }
 
   .fonctionnement h2 {
@@ -781,13 +779,6 @@ footer h4 {
   }
 
   .anim_heart:hover .heart-after {
-    background: -webkit-linear-gradient(200.64deg,
-        #9356dc -5.2%,
-        #ff79da 110.74%);
-    background: linear-gradient(to top,
-        200.64deg,
-        #9356dc -5.2%,
-        #ff79da 110.74%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -876,14 +867,11 @@ footer h4 {
     margin-top: -60px;
   }
 
+  .title_container h1{
+    font-size: 28px;
+  }
+
   .heart_title:hover .heart-after-title {
-    background: -webkit-linear-gradient(200.64deg,
-        #9356dc -5.2%,
-        #ff79da 110.74%);
-    background: linear-gradient(to top,
-        200.64deg,
-        #9356dc -5.2%,
-        #ff79da 110.74%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
